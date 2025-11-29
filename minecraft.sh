@@ -4,11 +4,11 @@
 
 # 1. It writes an autostart file for Plasma that launches this script from within Plasma.
 # 2. It starts a nested Plasma session inside Game Mode (because Game Mode cannot display multiple windows).
-# 3. It launches multiple instances of Minecraft using PollyMC depending on how many controllers are connected (1-4).
+# 3. It launches multiple instances of Minecraft using PolyMC depending on how many controllers are connected (1-4).
 # 4. It executes a KWin script that removes borders of all windows and arranges them in a grid.
 
 export target=/tmp
-cd /home/deck/.local/share/PollyMC
+cd /home/deck/.local/share/PolyMC
 
 # writes a KWin (Steam Deck window manager) script to a file and executes it
 splitScreen() {
