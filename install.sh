@@ -33,7 +33,7 @@ fi
 mkdir -p $targetDir
 pushd $targetDir >/dev/null
 
-    curlProgress 040022443ca968ef25913bcc72ddd507 \
+    curlProgress 9b5849c657738799469ab7517ab36baf \
                  PolyMC \
                  PolyMC-Linux-x86_64.AppImage \
                  https://github.com/PolyMC/PolyMC/releases/download/7.0/PolyMC-Linux-7.0-x86_64.AppImage
@@ -312,7 +312,7 @@ ________EOF
 
     # download the launch wrapper
     rm -f minecraft.sh
-    curlProgress 9b5849c657738799469ab7517ab36baf \
+    curlProgress 7ebf79bf258ff75d03cfa1074198ef1a \
                  'Launch script' \
                  minecraft.sh \
                  https://raw.githubusercontent.com/ArnoldSmith86/minecraft-splitscreen/refs/heads/main/minecraft.sh
